@@ -81,10 +81,11 @@ const CreateEmployee = () => {
                     className="error_message"
                   />
                 </div>
-              </Col>
-              <Button variant="success" type="submit" className="mt-5">
+                <Button variant="success" type="submit" className="mt-5">
                 Create
               </Button>
+              </Col>
+              
             </Form>
           </Formik>
         </Row>
