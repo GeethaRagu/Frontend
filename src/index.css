@@ -1,0 +1,33 @@
+/**Form css**/
+@media screen and (min-width: 900px) {
+    .myform{
+      display:flex;
+    }
+  }
+  h1{
+    text-align: center;
+  }
+  .userlist_container{
+      border:1px solid gray;
+      margin-top:2rem;
+      border-radius: 1rem;
+      padding:2rem;
+  }
+  .userlist_container label{
+    width:10rem;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .userlist_container h6{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .userlist_container div{
+     margin-bottom:1rem;
+  }
+  .error_message{
+    color:red;
+    font-size: 12px !important;
+  }
