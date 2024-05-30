@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <section>
         <Container>
-        <h1>{getcallMsg}</h1>
+        {/* <h1>{getcallMsg}</h1> */}
           <Row className="gx-4 gy-2 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
           
             {/* map all the products and display name,price,desc and image */}
