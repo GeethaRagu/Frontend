@@ -12,13 +12,13 @@ const CreateEmployee = () => {
     employeeFirstName: "",
     employeeLastName: "",
     employeeEmail: "",
-    employeeDesignation: "",
+    employeeDesignation: ""
   };
   const validationschema = Yup.object().shape({
     employeeFirstName: Yup.string().required("Field is empty"),
     employeeLastName: Yup.string().required("Field is empty"),
     employeeEmail: Yup.string().required("Field is empty"),
-    employeeDesignation: Yup.string().required("Field is empty"),
+    employeeDesignation: Yup.string().required("Field is empty")
   });
 
   const navigate = useNavigate();
